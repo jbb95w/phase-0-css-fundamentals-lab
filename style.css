@@ -3,3 +3,53 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation links */
+header nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  background-color: grey; /* You can change the color if you like */
+  color: white;
+  text-decoration: none;
+}
+
+/* Optional: Add spacing between nav links */
+header nav {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+/* Style the paragraph text inside #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make the details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  background-color: #f2f2f2; /* Same background color for all */
+  text-align: center;
+  box-sizing: border-box; /* So padding doesn’t break layout */
+  padding: 10px;
+}
